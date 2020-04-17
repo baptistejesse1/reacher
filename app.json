@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "communityReacher",
-    "slug": "communityReacher",
-	"sdkVersion": "UNVERSIONED",
+    "name": "Sonarcloud Community",
+    "slug": "sonar-community",
+    "sdkVersion": "37.0.0",
+    "scheme": "sonarcloud-community",
     "platforms": [
       "ios",
       "android",
@@ -24,6 +25,12 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "extra": {
+      "bugsnag": {
+        "apiKey": "3e2b1b265851a441c8e4169e4c933044"
+      }
+    },
+    "description": ""
   }
 }
